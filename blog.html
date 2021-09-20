@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worlds's University Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--  Header section here  -->
+    <section id="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!-- Header section End  here  -->
+
+    <!-- Blog section here  -->
+    <section id="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quis eaque at tempora. Ipsum delectus
+                    quidem sapiente laudantium perspiciatis! Nemo vitae cum unde fugit voluptas.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam, officiis molestias atque
+                expedita impedit. Alias commodi facilis voluptate enim quaerat provident tenetur culpa mollitia
+                necessitatibus itaque dolorum magnam praesentium dolorem magni voluptas id quod minus, excepturi ad modi
+                accusamus amet est laudantium velit. Vel provident ducimus veritatis odit pariatur necessitatibus enim
+                est ullam quasi quo sint nam velit explicabo consectetur quos numquam, delectus totam sapiente? Deleniti
+                quidem asperiores a tempore, aspernatur quia alias, nihil maiores eius sed itaque natus officiis?
+                Expedita, saepe? At atque reiciendis repellat numquam sequi consequatur unde aliquam, blanditiis
+                molestiae velit minus eius perferendis, quia alias.</p>
+                <br>
+              <p>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident temporibus cumque commodi inventore
+                placeat, quidem voluptatem hic earum numquam, voluptatum consectetur. Tempora ad nihil soluta amet
+                excepturi voluptatem nam natus tempore quam quos, impedit necessitatibus non, sit nobis adipisci ipsam
+                ab modi molestiae praesentium ex beatae! Similique ea quaerat hic enim laboriosam accusantium qui nam
+                tempora dicta aspernatur, incidunt amet! Soluta totam non aut ratione maxime! Accusantium consequatur
+                sapiente obcaecati sequi dolorum ullam, a velit voluptas assumenda adipisci dignissimos numquam dicta
+                temporibus veniam quo non praesentium eum voluptates cupiditate vero? Delectus laboriosam velit
+                repellendus ratione temporibus nobis fugiat dolores ad.</p>
+
+<div class="comment">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea  rows="5" placeholder="Your Comment"></textarea>
+        <button class="hero-btn red-btn" type="submit">Post Comment</button>
+    </form>
+</div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Web Developer</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog section end here  -->
+
+
+
+
+
+    <!-- Footer Section Here  -->
+    <section id="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minus <br> magni inventore temporibus, dolorum
+            recusandae deserunt! Tempore impedit quibusdam.
+        </p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <h3>&copy; Copyright Xcheekyy 2021</h3>
+    </section>
+    <!-- Footer Section End Here  -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Script here  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <!-- Script End here  -->
+</body>
+
+</html>

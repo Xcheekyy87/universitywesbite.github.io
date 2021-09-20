@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worlds's University Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--  Header section here  -->
+    <section id="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- Header section End  here  -->
+
+   <!-- Course section here  -->
+   <section id="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, porro.</p>
+    <div class="row">
+        <div class="col-1">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae hic tenetur officiis iure id
+                libero at laudantium quidem, nobis perspiciatis. Odio dolorum cumque in!</p>
+        </div>
+        <div class="col-1">
+            <h3>Degree</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et cumque nisi soluta ab tenetur,
+                cupiditate amet quidem! Ex dicta dolor quis, libero nam explicabo?</p>
+        </div>
+        <div class="col-1">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet, cum sed ad rem aliquam iusto
+                esse quo nobis officiis laborum ea consectetur, nesciunt architecto?</p>
+        </div>
+    </div>
+</section>
+<!-- Course section End here  -->
+
+
+
+
+<!-- Facilities -->
+<section id="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, aperiam.</p>
+    <div class="row">
+        <div class="col-3">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vitae in mollitia est, eius ducimus.
+            </p>
+        </div>
+        <div class="col-3">
+            <img src="images/basketball.png">
+            <h3>Largest play Ground</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vitae in mollitia est, eius ducimus.
+            </p>
+        </div>
+        <div class="col-3">
+            <img src="images/cafeteria.png">
+            <h3>Biggest Cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vitae in mollitia est, eius ducimus.
+            </p>
+        </div>
+    </div>
+</section
+<!-- Facilities close here -->
+
+    <!-- Footer Section Here  -->
+    <section id="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minus <br> magni inventore temporibus, dolorum
+            recusandae deserunt! Tempore impedit quibusdam.
+        </p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <h3>&copy; Copyright Xcheekyy 2021</h3>
+    </section>
+    <!-- Footer Section End Here  -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Script here  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <!-- Script End here  -->
+</body>
+
+</html>
